@@ -1,0 +1,41 @@
+{
+  "name": "@neupauer/tailwindcss-plugin-bg-spinner",
+  "version": "0.0.1",
+  "description": "A Tailwind CSS plugin for background spinner.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neupauer/tailwindcss-plugin-bg-spinner"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin"
+  ],
+  "author": {
+    "name": "Peter Neupauer",
+    "url": "https://neupauer.sk"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "node scripts/build.js"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^2.0.0"
+  },
+  "dependencies": {
+    "flat": "^5.0.2",
+    "mini-svg-data-uri": "^1.4.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.0",
+    "clean-css": "^4.2.1",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
