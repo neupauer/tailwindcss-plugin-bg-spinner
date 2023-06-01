@@ -1,6 +1,6 @@
 {
   "name": "@neupauer/tailwindcss-plugin-bg-spinner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tailwind CSS plugin for background spinner.",
   "main": "src/index.js",
   "repository": {
@@ -23,7 +23,7 @@
     "prepublishOnly": "node scripts/build.js"
   },
   "peerDependencies": {
-    "tailwindcss": "^2.0.0"
+    "tailwindcss": ">=2.0.0 || >=3.0.0"
   },
   "dependencies": {
     "flat": "^5.0.2",
